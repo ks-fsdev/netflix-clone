@@ -1,0 +1,489 @@
+/*BODY*/
+body {
+  background-image: url(images/pagebg.webp);
+  background-size: cover;
+  padding: 20px;
+  margin: 0px;
+  cursor: default;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.hlogo {
+  height: 40px;
+  width: auto;
+}
+
+.hlang {
+  border: 2px solid white;
+  background-color: container-language-signin;
+  padding: 6px;
+  border-radius: 50px;
+}
+
+.hlangicon {
+  height: 22px;
+}
+
+.container-language-signin {
+  display: flex;
+  gap: 20px;
+}
+
+.language-selector {
+  border: 0px solid transparent;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0f090b;
+  color: white;
+}
+
+.hopt {
+  background-color: white;
+  color: black;
+}
+
+.signin {
+  height: 40px;
+  width: 100px;
+
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  color: #0f090b;
+}
+/*SECTION 1*/
+.sec1 {
+  margin: 30px;
+  background-image: url(images/banner.jpg);
+  border-radius: 50px;
+  font-family: Martel Sans;
+  color: white;
+}
+
+.s1-shadow {
+  padding: 300px 0px 50px 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  box-shadow: inset 2px 1px 1px white, inset 0px -120px 120px #311c1b;
+}
+
+.s1-tag {
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.s1-sub-tag {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: -50px;
+}
+/*SECTION 2*/
+
+.s2-input {
+  height: 50px;
+  width: 400px;
+  border: 1px solid darkgray;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+}
+
+.s2-button {
+  height: 58px;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: #e50914;
+  color: white;
+
+  font-family: Martel Sans;
+  font-size: 20px;
+  font-weight: 600;
+
+  transition: background-color 0.3s ease-in;
+}
+
+.s2-button:hover {
+  height: 58px;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: #88070e;
+  color: white;
+
+  font-family: Martel Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*SECTION 3*/
+.sec3 {
+  padding: 40px 150px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s3-heading {
+  color: white;
+  font-family: "Martel Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.s3-options {
+  padding-top: 20px;
+}
+
+.optn1 {
+  border: 0px solid transparent;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0f090b;
+  color: white;
+  border: 2px solid white;
+  background-color: container-language-signin;
+  padding: 10px 5px;
+  border-radius: 50px;
+}
+
+.optn2 {
+  border: 0px solid transparent;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0d090a;
+  color: white;
+  border: 2px solid white;
+  background-color: container-language-signin;
+  padding: 10px 5px;
+  border-radius: 50px;
+}
+
+.slideshow {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.ssimg1 {
+  background-image: url(images/bhoolbhulaiya.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  transition: scale 0.2s ease-out;
+}
+
+.ssimg2 {
+  background-image: url(images/teenpatti.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  transition: scale 0.2s ease-out;
+}
+
+.ssimg3 {
+  background-image: url(images/meiya.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  transition: scale 0.2s ease-out;
+}
+
+.ssimg4 {
+  background-image: url(images/thebuckinghammurders.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  transition: scale 0.2s ease-out;
+}
+
+.ssimg5 {
+  background-image: url(images/devaraposter.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  transition: scale 0.2s ease-out;
+}
+
+.ssimg6 {
+  background-image: url(images/vijay69.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  transition: scale 0.2s ease-out;
+}
+
+.number {
+  font-family: "Martel Sans", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  text-shadow: #fff 1px 1px 0px, #fff -1px -1px 0px, white 0px 0px 5px;
+  margin: -10px 0px 0px -40px;
+}
+
+/* HOVER POPUP */
+
+.ssimg1:hover {
+  background-image: url(images/bhoolbhulaiya.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  scale: 1.05;
+}
+
+.ssimg2:hover {
+  background-image: url(images/teenpatti.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  scale: 1.1;
+}
+
+.ssimg3:hover {
+  background-image: url(images/meiya.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  scale: 1.1;
+}
+
+.ssimg4:hover {
+  background-image: url(images/thebuckinghammurders.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  scale: 1.1;
+}
+
+.ssimg5:hover {
+  background-image: url(images/devaraposter.webp);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  scale: 1.1;
+}
+
+.ssimg6:hover {
+  background-image: url(images/vijay69.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  color: #030303e0;
+  scale: 1.1;
+}
+
+/*SECTION 4*/
+.sec4 {
+  color: #fff;
+  padding: 40px 150px;
+}
+
+.s4head {
+  font-family: "Martel Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.s4boxes {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.s4textdiv {
+  display: flex;
+}
+
+.s4textbox {
+  width: 350px;
+  background-color: rgba(41, 41, 41, 0.681);
+  font-family: "Martel Sans", sans-serif;
+  border-radius: 30px;
+  border: 2px solid #2b2a28;
+  padding: 5px 5px;
+}
+
+.s4text {
+  margin-left: 5px;
+}
+
+.s4graphics {
+  height: 45px;
+  width: auto;
+  margin-left: 280px;
+}
+/*SECTION 5*/
+.sec5 {
+  padding: 40px 150px;
+  color: #fff;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.s5head {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.accordion {
+  width: 80%;
+  margin: auto;
+}
+
+.accordion-header {
+  background: rgba(41, 41, 41, 0.681);
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #2b2a28;
+  margin-bottom: 5px;
+  transition: background 0.7s;
+}
+
+.accordion-header:hover {
+  background: rgba(59, 59, 59, 0.681);
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #2b2a28;
+  margin-bottom: 5px;
+}
+
+.icon {
+  scale: 1.8;
+}
+.accordion-header .icon {
+  transition: transform 0.3s;
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+  padding: 0px 20px;
+  background: rgba(41, 41, 41, 0.681);
+  color: #fff;
+
+  margin-bottom: 5px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+/*SECTION 6*/
+.sec6 {
+  align-items: center;
+}
+
+.s6-button {
+  height: 40px;
+  width: 125px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: #c0050f;
+  color: white;
+
+  font-family: Martel Sans;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in;
+}
+
+.s6-button:hover {
+  height: 40px;
+  width: 125px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: #88070e;
+  color: white;
+
+  font-family: Martel Sans;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.s6-text {
+  font-family: "Martel Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+/*FOOTER*/
+footer {
+  color: #b7b7b7;
+  font-family: "Martel Sans", sans-serif;
+  padding: 100px 250px 200px 250px;
+}
+
+.foot1 {
+  padding-left: 100px;
+}
+
+.foot2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f2-text {
+  font-size: 14px;
+}
