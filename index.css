@@ -12,6 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  align-items: center;
 }
 
 .hlogo {
@@ -21,26 +22,22 @@ header {
 
 .hlang {
   border: 2px solid white;
-  background-color: container-language-signin;
-  padding: 6px;
+  background: none;
+  padding: 9px;
   border-radius: 50px;
-}
-
-.hlangicon {
-  height: 22px;
 }
 
 .container-language-signin {
   display: flex;
-  gap: 20px;
+  gap: clamp(5px, 1vw, 20px);
 }
 
 .language-selector {
   border: 0px solid transparent;
   font-size: 16px;
   font-weight: 600;
-  background-color: #0f090b;
   color: white;
+  background: none;
 }
 
 .hopt {
@@ -68,6 +65,7 @@ header {
   border-radius: 50px;
   font-family: Martel Sans;
   color: white;
+  background-size: cover;
 }
 
 .s1-shadow {
@@ -79,56 +77,53 @@ header {
 
 .s1-tag {
   font-weight: 900;
-  font-size: 70px;
-  line-height: 70px;
+  font-size: clamp(30px, 4vw, 70px);
+  line-height: clamp(30px, 4vw, 70px);
 }
 
 .s1-sub-tag {
   font-weight: 400;
-  font-size: 20px;
-  margin-top: -50px;
+  font-size: clamp(10px, 2vw, 20px);
+  margin-top: -30px;
 }
 /*SECTION 2*/
+.sec2 {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
 
 .s2-input {
-  height: 50px;
-  width: 400px;
+  width: 47vw;
+  max-width: 400px;
   border: 1px solid darkgray;
   border-radius: 50px;
   background-color: rgba(0, 0, 0, 0.3);
+  padding: clamp(12px, 1vw, 30px);
   font-size: 15px;
 }
 
 .s2-button {
-  height: 58px;
-  width: 180px;
-  border: 1px solid black;
+  width: 28vw;
+  max-width: 175px;
+  border: none;
   border-radius: 50px;
   background-color: #e50914;
   color: white;
-
   font-family: Martel Sans;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
-
   transition: background-color 0.3s ease-in;
+  padding: clamp(7px, 0.5vw, 30px);
 }
 
 .s2-button:hover {
-  height: 58px;
-  width: 180px;
-  border: 1px solid black;
-  border-radius: 50px;
   background-color: #88070e;
   color: white;
-
-  font-family: Martel Sans;
-  font-size: 20px;
-  font-weight: 600;
 }
 /*SECTION 3*/
 .sec3 {
-  padding: 40px 150px;
+  padding: 40px clamp(40px, 6vw, 150px);
 }
 
 .title {
@@ -147,14 +142,17 @@ header {
   padding-top: 20px;
 }
 
+.s3-options select {
+  width: 100px;
+}
+
 .optn1 {
   border: 0px solid transparent;
   font-size: 16px;
   font-weight: 600;
-  background-color: #0f090b;
+  background: none;
   color: white;
   border: 2px solid white;
-  background-color: container-language-signin;
   padding: 10px 5px;
   border-radius: 50px;
 }
@@ -163,167 +161,77 @@ header {
   border: 0px solid transparent;
   font-size: 16px;
   font-weight: 600;
-  background-color: #0d090a;
+  background: none;
   color: white;
   border: 2px solid white;
-  background-color: container-language-signin;
   padding: 10px 5px;
   border-radius: 50px;
 }
 
 .slideshow {
   display: flex;
-  gap: 70px;
+  flex-wrap: wrap;
+  gap: clamp(20px, 5vw, 70px);
   justify-content: center;
-  padding: 60px 0px;
+  padding: clamp(30px, 5vw, 60px) 0;
 }
 
+.ssimg1,
+.ssimg2,
+.ssimg3,
+.ssimg4,
+.ssimg5,
+.ssimg6 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  height: clamp(250px, 40vw, 350px);
+  width: clamp(120px, 25vw, 200px);
+  color: #030303e0;
+  transition: transform 0.3s ease;
+}
+
+.ssimg1:hover,
+.ssimg2:hover,
+.ssimg3:hover,
+.ssimg4:hover,
+.ssimg5:hover,
+.ssimg6:hover {
+  transform: scale(1.05);
+}
+
+/* Background Images */
 .ssimg1 {
   background-image: url(images/bhoolbhulaiya.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  transition: scale 0.2s ease-out;
 }
-
 .ssimg2 {
   background-image: url(images/teenpatti.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  transition: scale 0.2s ease-out;
 }
-
 .ssimg3 {
   background-image: url(images/meiya.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  transition: scale 0.2s ease-out;
 }
-
 .ssimg4 {
   background-image: url(images/thebuckinghammurders.webp);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  transition: scale 0.2s ease-out;
 }
-
 .ssimg5 {
   background-image: url(images/devaraposter.webp);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  transition: scale 0.2s ease-out;
 }
-
 .ssimg6 {
   background-image: url(images/vijay69.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  transition: scale 0.2s ease-out;
 }
 
 .number {
   font-family: "Martel Sans", sans-serif;
-  font-size: 100px;
+  font-size: clamp(40px, 8vw, 100px);
   font-weight: 800;
   text-shadow: #fff 1px 1px 0px, #fff -1px -1px 0px, white 0px 0px 5px;
-  margin: -10px 0px 0px -40px;
-}
-
-/* HOVER POPUP */
-
-.ssimg1:hover {
-  background-image: url(images/bhoolbhulaiya.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  scale: 1.05;
-}
-
-.ssimg2:hover {
-  background-image: url(images/teenpatti.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  scale: 1.1;
-}
-
-.ssimg3:hover {
-  background-image: url(images/meiya.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  scale: 1.1;
-}
-
-.ssimg4:hover {
-  background-image: url(images/thebuckinghammurders.webp);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  scale: 1.1;
-}
-
-.ssimg5:hover {
-  background-image: url(images/devaraposter.webp);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  scale: 1.1;
-}
-
-.ssimg6:hover {
-  background-image: url(images/vijay69.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  height: 350px;
-  width: 200px;
-  color: #030303e0;
-  scale: 1.1;
+  margin: -10px 0 0 -31px;
 }
 
 /*SECTION 4*/
 .sec4 {
   color: #fff;
-  padding: 40px 150px;
+  padding: 40px clamp(20px, 6vw, 150px);
 }
 
 .s4head {
@@ -351,6 +259,8 @@ header {
   border-radius: 30px;
   border: 2px solid #2b2a28;
   padding: 5px 5px;
+  position: relative;
+  height: 112px;
 }
 
 .s4text {
@@ -358,13 +268,15 @@ header {
 }
 
 .s4graphics {
-  height: 45px;
+  height: 40px;
   width: auto;
-  margin-left: 280px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 /*SECTION 5*/
 .sec5 {
-  padding: 40px 150px;
+  padding: 40px clamp(20px, 6vw, 150px);
   color: #fff;
   font-family: "Martel Sans", sans-serif;
 }
@@ -472,7 +384,7 @@ header {
 footer {
   color: #b7b7b7;
   font-family: "Martel Sans", sans-serif;
-  padding: 100px 250px 200px 250px;
+  padding: 100px clamp(20px, 6vw, 150px) 200px clamp(20px, 6vw, 150px);
 }
 
 .foot1 {
@@ -486,4 +398,56 @@ footer {
 
 .f2-text {
   font-size: 14px;
+}
+
+@media (max-width: 720px) {
+  body {
+    padding: none;
+  }
+  .number {
+    margin: -10px 0 0 -15px;
+  }
+  .hlogo {
+    height: 28px;
+  }
+  .hlangicon {
+    display: none;
+  }
+  .foot1 {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  .s2-button {
+    font-size: 12px;
+  }
+  .accordion {
+    width: 100%;
+  }
+  .accordion-header,
+  .accordion-content,
+  .accordion-header:hover {
+    font-size: 14px;
+  }
+  .s3-options {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .s3-heading,
+  .s4head,
+  .s5head {
+    font-size: 23px;
+  }
+  .accordion-header,
+  .accordion-header:hover {
+    padding: 11px 18px;
+  }
+  .sec3 {
+    padding: 40px 0px 0px;
+  }
+  .s1-shadow {
+    padding: 200px 0px 50px 0px;
+  }
 }
