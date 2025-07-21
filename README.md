@@ -55,7 +55,7 @@
       <td>Contains all DEMO Screen Recordings of the Project</td>
     </tr>
   </tbody>
-</tabler=>
+</table>
 
   <hr>
 
