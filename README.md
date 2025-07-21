@@ -46,6 +46,14 @@
       <td><code>images/</code></td>
       <td>Contains all images used in the project (logos, banner, movie thumbnails, graphics, etc.)</td>
     </tr>
+    <tr>
+      <td><code>corousal posters/</code></td>
+      <td>Contains all images used in the Carousel</td>
+    </tr>
+    <tr>
+      <td><code>ss/</code></td>
+      <td>Contains all DEMO Screen Recordings of the Project</td>
+    </tr>
   </tbody>
 </tabler=>
 
