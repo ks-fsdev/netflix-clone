@@ -21,38 +21,33 @@
   
   <hr>
 
-  <h2>📁 Folder Structure</h2>
-  <div class="folder-structure">
-netflix-clone/
-│
-├── index.html
-├── index.css
-├── index.js
-├── README.html
-│
-└── corousal posters/
-    ├── amaran.webp
-    ├── bhoolbhulaiya.webp
-    ├── devzara.webp
-    └── ...more
-│
-└── images/
-    ├── Logonetflix.png
-    ├── banner.jpg
-    ├── pagebg.webp
-    ├── bhoolbhulaiya.jpg
-    ├── teenpatti.jpg
-    ├── meiya.jpg
-    ├── thebuckinghammurders.webp
-    ├── devaraposter.webp
-    └── ...more
-│
-└── ss/
-    ├── amaran.webp
-    ├── bhoolbhulaiya.webp
-    ├── devzara.webp
-    └── ...more
-  </div>
+<h2>🗂️ Project Structure</h2>
+<table>
+  <thead>
+    <tr>
+      <th><strong>File/Folder</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>index.html</code></td>
+      <td>Main HTML file that structures the Netflix clone landing page</td>
+    </tr>
+    <tr>
+      <td><code>index.css</code></td>
+      <td>All styling including layout, typography, responsiveness, and animation</td>
+    </tr>
+    <tr>
+      <td><code>index.js</code></td>
+      <td>Handles the accordion toggle functionality in the FAQ section</td>
+    </tr>
+    <tr>
+      <td><code>images/</code></td>
+      <td>Contains all images used in the project (logos, banner, movie thumbnails, graphics, etc.)</td>
+    </tr>
+  </tbody>
+</tabler=>
 
   <hr>
 
